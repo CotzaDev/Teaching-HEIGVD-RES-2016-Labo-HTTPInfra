@@ -8,7 +8,7 @@
     <meta name="author" content="http://bootstraptaste.com">
     <link rel="shortcut icon" href="assets/img/favicon.png">
 
-    <title>HEIG-VD: Holiday countdown</title>
+    <title>HEIG-VD: RES Pub</title>
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -30,9 +30,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12">
-					<h1>Welcome to the HEIG-VD</h1>
-					<h2 class="subtitle">Holidays are coming soon ;)</h2>
-					<div id="countdown"></div>
+					<h1>Welcome to the Pub</h1>
+					<h2 class="subtitle">Next beer tasting:</h2>
+					<div id="beer"></div>
 				</div>
 
 			</div>
@@ -50,11 +50,9 @@
 	</div>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.countdown.min.js"></script>
-	<script type="text/javascript">
-  $('#countdown').countdown('2016/07/04', function(event) {
-    $(this).html(event.strftime('%w weeks %d days <br /> %H:%M:%S'));
-  });
-</script>
+
+    <!-- Custom script to load beers -->
+    <script src="assets/js/beers.js"></script>
+
   </body>
 </html>
